@@ -1,0 +1,124 @@
+{
+  "Cardjava" : {
+    "2nd_match" : {
+      "date_value" : "24/03/19",
+      "description" : "Erangel",
+      "device" : "Mobile",
+      "fst_amt" : "100",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/tournament-go-ce94b.appspot.com/o/wp2208672-pubg-wallpapers.PNG?alt=media&token=af2aeaf1-0ad6-4e0d-a055-531f14901386",
+      "match_number" : "1",
+      "per_kill_value" : "10",
+      "r_id" : "-",
+      "r_pass" : "-",
+      "scnd_amt" : "50",
+      "status" : "",
+      "team" : "Squad",
+      "third_amt" : "5",
+      "time_value" : "11:00AM",
+      "type" : "Squad",
+      "users" : {
+        "Aaaa" : {
+          "congo_dialog_status" : "false"
+        },
+        "vvvv" : {
+          "congo_dialog_status" : "false"
+        }
+      },
+      "version" : "TPP"
+    },
+    "3rd_match" : {
+      "date" : "24/03/19",
+      "date_value" : "24/03/19",
+      "description" : "Erangel",
+      "device" : "All devices",
+      "fst_amt" : "300",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/tournament-go-ce94b.appspot.com/o/wp2208675-pubg-wallpapers.jpg?alt=media&token=82e1c341-85b5-4052-a744-de7b25375c6d",
+      "map" : "Erangel",
+      "match_number" : "2",
+      "per_kill_value" : "15",
+      "r_id" : "-",
+      "r_pass" : "-",
+      "scnd_amt" : "100",
+      "status" : "",
+      "team" : "Solo",
+      "third_amt" : "8",
+      "time_value" : "1:30PM",
+      "type" : "Solo",
+      "version" : "TPP"
+    }
+  },
+  "Linker" : {
+    "BX8OJS4HdmVJO2VoPQeWYLdJiGg1" : {
+      "user_name" : "dnjdjn"
+    },
+    "HIjCnmDXloQoVqcxMiGAvyyuTCF3" : {
+      "user_name" : "cbfgh"
+    },
+    "NhYvzWaNI6eg8Ujho0h82PSNjhB2" : {
+      "user_name" : "bhhhh"
+    },
+    "SF9z0ZQPBDRkRjeGhVlPDsUkHkH2" : {
+      "user_name" : "ayu"
+    },
+    "TM1fBRTBfoUTQKd7sHmao5GNdKr1" : {
+      "user_name" : "fggfgg"
+    },
+    "auvKnRWsstgd1ybYFp4fK92ejOD3" : {
+      "user_name" : "tandon"
+    },
+    "bfzgvcBS0CeIka0InIgF12TTYcy1" : {
+      "user_name" : ""
+    },
+    "ghLUFy58MzRPauPgNkLzT5iuyZq1" : {
+      "user_name" : "Aaaa"
+    },
+    "onoFiSB96tNkKFWoWMiPlIFOOQP2" : {
+      "user_name" : "ayushi"
+    },
+    "qHxtFemIJCYSmxhRSJ11dHENAmv1" : {
+      "user_name" : "vvvv"
+    },
+    "xs9aNVqpzVUyJOvkxzIYLFJHKT33" : {
+      "user_name" : "test"
+    },
+    "yQmlRwCfUVSE0NCUOmA60DL4NyO2" : {
+      "user_name" : "Sarraf Aman"
+    },
+    "zukJKsQZP3XCXrZZiZ90LM6Xwbi1" : {
+      "user_name" : "ALOK"
+    }
+  },
+  "Redeem_Request" : {
+    "Aaaa" : {
+      "phone" : "9284113696",
+      "redeem_amount" : "10",
+      "type" : "PayPal",
+      "wallet_amount" : "11"
+    },
+    "vggg" : {
+      "phone" : "9900527042",
+      "redeem_amount" : "100",
+      "wallet_amount" : "110"
+    }
+  },
+  "Transactions" : {
+    "Aaaa" : {
+      "Status" : "TXN_SUCCESS",
+      "amount" : "10",
+      "order_ID" : "8c55001d86a346cc9fcd2d38593dc5bc"
+    },
+    "Sarraf Aman" : {
+      "Status" : "TXN_FAILURE",
+      "amount" : "200",
+      "order_ID" : "2f3715bc91934e789e69de38792b3bce"
+    }
+  },
+  "Users" : {
+    "likes" : "0",
+    "phone" : "9606970048",
+    "total_kills" : "0",
+    "total_winning" : "0",
+    "user_name" : "",
+    "wallet_amount" : "0"
+  }
+}

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_back_login">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/NonetScreen_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        android:theme="@style/NoInterNet_theme"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="TODO"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:srcCompat="@drawable/flying_man"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="monospace"
+
+            android:gravity="center|center_vertical"
+            android:maxLines="4"
+            android:padding="8dp"
+            android:text="What we've got here is..failure to communicate.\n\nNo Network Connection."
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/tv11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text="welcome back!"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+
+        <LinearLayout
+            android:id="@+id/connected_login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp">
+
+
+
+            <EditText
+                android:id="@+id/login_email"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:drawableLeft="@drawable/outline_email_24"
+                android:drawablePadding="30dp"
+                android:textColorHint="#a8a8a8"
+                android:background="@drawable/et_back"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="30dp"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+
+            <EditText
+                android:id="@+id/login_phone"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/et_back"
+
+                android:layout_marginRight="40dp"
+                android:drawableLeft="@drawable/outline_phone_24"
+                android:drawablePadding="30dp"
+                android:hint="Phone number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:paddingLeft="30dp"
+                android:textColorHint="#a8a8a8"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+
+            <EditText
+                android:id="@+id/login_pass"
+                android:layout_width="match_parent"
+                android:background="@drawable/et_back"
+
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="40dp"
+                android:drawableLeft="@drawable/outline_https_24"
+                android:drawablePadding="30dp"
+                android:hint="Password"
+
+                android:textColorHint="#a8a8a8"
+                android:inputType="textPassword"
+                android:paddingLeft="30dp"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+
+            <Button
+                android:id="@+id/login_button_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/login_button"
+                app:elevation="10dp"
+                android:text="Login"
+                android:textColor="#fff"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/progressBar7"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                app:indicatorColor="#000000"
+                app:indicatorName="BallPulseIndicator" />
+
+            <Button
+                android:id="@+id/login_button_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/register_button"
+                android:elevation="10dp"
+                android:text="Register"
+                android:visibility="gone"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/forget_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textColor="#FFA500"
+                android:text="I forget my password."
+                android:textSize="12sp"
+                 />
+
+
+            <TextView
+                android:id="@+id/reg_login_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:drawableRight="@drawable/drawable_right_login"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="NEW USER? REGISTER"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/progressBar"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:visibility="gone"
+                app:indicatorColor="#000000"
+                app:indicatorName="BallPulseIndicator" />
+
+            <TextView
+                android:id="@+id/reg_login_text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/arrow_left"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="HAVE AN ACCOUNT? LOGIN."
+                android:textColor="#000000"
+                android:textSize="10sp"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/tandc_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tandc_var"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By signing up you agree to our"
+            android:textSize="11sp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/terms_of_use"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="Terms of Use"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=" and "
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/privacy_policy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
+                android:text=" Privacy Policy"
+                android:textSize="11sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

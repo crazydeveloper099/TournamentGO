@@ -1,0 +1,112 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.go.gamez_era"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+repositories {
+    mavenCentral()
+    maven {
+        url "https://s3-ap-southeast-1.amazonaws.com/godel-release/godel/"
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.0.0-beta01'
+    implementation 'androidx.appcompat:appcompat:1.0.0-beta01'
+    implementation 'com.google.android.material:material:1.0.0-beta01'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0-beta01'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.2'
+    implementation 'androidx.cardview:cardview:1.0.0-beta01'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0-beta01'
+    implementation 'com.google.firebase:firebase-core:16.0.6'
+    implementation 'com.firebaseui:firebase-ui-database:4.3.0'
+    implementation 'com.google.firebase:firebase-database:16.0.5'
+    implementation 'com.google.firebase:firebase-storage:16.0.5'
+    implementation 'com.firebaseui:firebase-ui:0.4.3'
+    implementation 'com.google.android.gms:play-services-auth:16.0.1'
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
+    implementation 'com.google.firebase:firebase-auth:16.1.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.2.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.2.0'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.0.0-beta01'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.android.volley:volley:1.1.0'
+    androidTestImplementation 'androidx.test:runner:1.1.0-alpha4'
+    implementation 'io.supercharge:shimmerlayout:2.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0-alpha4'
+    implementation 'com.facebook.shimmer:shimmer:0.4.0'
+    implementation 'com.github.ittianyu:BottomNavigationViewEx:2.0.2'
+    implementation 'com.tbuonomo:morph-bottom-navigation:1.0.1'
+    implementation 'com.aurelhubert:ahbottomnavigation:2.3.4'
+    implementation 'com.github.florent37:materialtextfield:1.0.7'
+    implementation 'com.github.GrenderG:Toasty:1.4.0'
+    implementation 'com.yarolegovich:lovely-dialog:1.1.0'
+    implementation 'com.github.javiersantos:MaterialStyledDialogs:2.1'
+    implementation 'com.treebo:internetavailabilitychecker:1.0.2'
+    //to apply font throughout the app
+    implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
+    //to check for active internet connection
+    implementation 'com.github.jumadeveloper:networkmanager:0.0.2'
+    //to show the spotLight intro
+    implementation 'me.toptas.fancyshowcase:fancyshowcaseview:1.1.4'
+    implementation 'com.mikepenz:materialdrawer:6.1.2'
+    implementation 'com.github.f0ris.sweetalert:library:1.5.1'
+    implementation 'com.facebook.shimmer:shimmer:0.4.0'
+    implementation 'com.wang.avi:library:2.1.3'
+    implementation 'ai.devsupport.instamojo:instamojolib:0.1.5'
+    implementation 'com.github.rasoulmiri:buttonloading:v1.0.8'
+    implementation 'com.daimajia.easing:library:2.0@aar'
+    implementation 'com.daimajia.androidanimations:library:2.3@aar'
+    implementation 'com.github.dmytrodanylyk.shadow-layout:library:1.0.1'
+    implementation 'com.github.Shashank02051997:FancyAlertDialog-Android:0.1'
+    //dialig lib
+    implementation 'com.eminayar.panterdialog:panter-dialog:0.0.2.1'
+    //shimmer text lib
+    implementation 'com.romainpiel.shimmer:library:1.4.0@aar'
+    //snackbar lib
+    implementation 'com.github.Pradyuman7:ChocoBar:V1.0'
+    //elastic cardView lib
+    implementation 'com.github.armcha:ElasticView:0.2.0'
+    implementation 'com.android.volley:volley:1.1.0'
+    implementation 'com.github.florent37:arclayout:1.0.3'
+    implementation 'com.google.code.gson:gson:2.8.2'
+    //button lib android
+    implementation 'com.lijiankun24:shadowlayout:1.1.0'
+    implementation 'com.github.castorflex.smoothprogressbar:library-circular:1.3.0'
+    implementation project(':cashfreeSDK')
+    implementation('com.paytm:pgplussdk:1.3.3') {
+        transitive = true;
+    }
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.7.0'
+    implementation 'com.github.mjn1369:prettydialog:1.0.4'
+    implementation 'nl.dionsegijn:konfetti:1.1.2'
+    implementation 'com.hmomeni.progresscircula:progresscircula:0.1.3'
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.9.9'
+    implementation 'com.github.Shashank02051997:FancyFlashbar-Android:1.1'
+    implementation 'me.zhanghai.android.materialprogressbar:library:1.6.1'
+    implementation 'com.github.Piashsarker:AndroidAppUpdateLibrary:1.0.3'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.github.atzcx:AppVerUpdater:1.0.10'
+}
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'io.fabric'

@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1028211197514",
+    "firebase_url": "https://gamez-era.firebaseio.com",
+    "project_id": "gamez-era",
+    "storage_bucket": "gamez-era.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028211197514:android:7718d80c6fa150f4",
+        "android_client_info": {
+          "package_name": "com.go.gamez_era"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028211197514-s3pkecg0ggjonh1e8mlfcesehn48fdu5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWHzmfVem-17k2Hl7gYH_Kj-RgmhQn3wk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028211197514:android:bfb268fbee9f49fa",
+        "android_client_info": {
+          "package_name": "com.go.gamez_era"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028211197514-s3pkecg0ggjonh1e8mlfcesehn48fdu5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWHzmfVem-17k2Hl7gYH_Kj-RgmhQn3wk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

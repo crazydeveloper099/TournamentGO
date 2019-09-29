@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".rules_activity"
+   >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/NonetScreen_rules"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        android:theme="@style/NoInterNet_theme"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/flying_man"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="monospace"
+
+            android:gravity="center|center_vertical"
+            android:maxLines="4"
+            android:padding="8dp"
+            android:text="What we've got here is..failure to communicate.\n\nNo Network Connection."
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+    <TextView
+
+        android:id="@+id/rules_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+
+        android:fontFamily="sans-serif-ligh"
+        android:text="Info"
+        android:textColor="#C2571A"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:id="@+id/toolbar_rules"
+
+        android:elevation="4dp">
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/connected_rules"
+    android:layout_marginTop="?attr/actionBarSize">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/match_info"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5.0dip"
+                android:text="ABOUT PUBG"
+                android:layout_marginTop="20.0dip"
+                android:textColor="#ff000000"
+                android:drawableEnd="@drawable/instructions_info_icon"
+                android:drawablePadding="5.0dip"
+                android:textStyle="bold"
+                android:textSize="14.0sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+
+                android:background="#50dddddd"
+                />
+            <TextView
+                android:id="@+id/rule_134"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="• PlayerUnknown's Battlegrounds (PUBG) is an online multiplayer battle royale game  developed and published by PUBG Corporation, a subsidiary  of South Korean video game company Bluehole. The game is based on previous mods that were created by Brendan PlayerUnknown Greene for other games using the film Battle Royale for inspiration, and expanded into a standalone game under Greene's creative direction."
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+            <TextView
+                android:layout_height="15.0dip"
+                android:layout_width="fill_parent"
+                android:background="#50dddddd"
+                android:layout_marginTop="10.0dip"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/match_inf"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5.0dip"
+                android:text="GAMEPLAY"
+                android:layout_marginTop="20.0dip"
+                android:textColor="#ff000000"
+                android:drawableEnd="@drawable/tick_image"
+                android:drawablePadding="5.0dip"
+                android:textStyle="bold"
+                android:textSize="14.0sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+
+                android:background="#50dddddd"
+                />
+
+            <TextView
+                android:id="@+id/rule_135"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="• Each match starts with players parachuting from a plane onto a map area approximately 8 × 8 kilometres in size."
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+
+                android:background="#50dddddd"
+                />
+            <TextView
+                android:id="@+id/rule_138"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="• The plane's flight path across the map varies with each round, requiring players to quickly determine the best time to eject and parachute to the ground,  Players start with no gear beyond customized clothing selections which do not affect gameplay."
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+
+                android:background="#50dddddd"
+                />
+            <TextView
+                android:id="@+id/rule_1359"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="• Every few minutes, the playable area of the map begins to shrink down towards a random location, with any player caught outside the safe area taking damage incrementally, and eventually being eliminated if the safe zone is not entered in time; in game, the players see the boundary as a shimmering blue wall that contracts over time."
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+
+                android:background="#50dddddd"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="• This results in a more confined map, in turn increasing the chances of encounters, During the course of the match, random regions of the map are highlighted in red and bombed, posing a threat to players who remain in that area."
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+
+                android:background="#50dddddd"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="• In both cases, players are warned a few minutes before these events, giving them time to relocate to safety."
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+
+                android:background="#50dddddd"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="• At random, a plane will fly over various parts of the playable map and drop a loot package, containing items which are typically unobtainable during normal gameplay."
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+
+                android:background="#50dddddd"
+                />
+        </LinearLayout>
+            <TextView
+                android:layout_height="15.0dip"
+                android:layout_width="fill_parent"
+                android:background="#50dddddd"
+                android:layout_marginTop="10.0dip"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/match_in"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="5.0dip"
+                    android:text="RULES"
+                    android:layout_marginTop="20.0dip"
+                    android:textColor="#ff000000"
+                    android:drawableEnd="@drawable/rules_icones"
+                    android:drawablePadding="5.0dip"
+                    android:textStyle="bold"
+                    android:textSize="14.0sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+
+                    android:background="#50dddddd"
+                    />
+            <TextView
+                android:id="@+id/rule_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="• Please join the room in time no , refund will be initiated in case of late joining."
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+
+                android:background="#50dddddd"
+                />
+
+            <TextView
+                android:id="@+id/rule_12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="• Once you join a match you will be able to see room id and password row ."
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+
+                android:background="#50dddddd"
+                />
+
+            <TextView
+                android:id="@+id/rule_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="• Teaming or Grouping with other players will not be tolerated and if found or reported will be disqualified from the match."
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+
+                android:background="#50dddddd"
+                />
+
+            <TextView
+                android:id="@+id/rule_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="• Sharing of Room's ID &amp; Password with players who have not paid for the match will not be tolerated."
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+
+                android:background="#50dddddd"
+                />
+
+            <TextView
+                android:id="@+id/rule_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="• Do not use any hacks or tools, if found doing so will be termianted from the match."
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+
+                android:background="#50dddddd"
+                />
+
+            <TextView
+                android:id="@+id/rule_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="• ID &amp; Password of the room will be shared 15 minutes before match time."
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+
+                android:background="#50dddddd"
+                />
+            <TextView
+                android:id="@+id/rule_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="• In any case of lagging or freezing the game will not be restarted.Be sure to have a proper internet connection 15 minutes before match time."
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+
+                android:background="#50dddddd"
+                />
+            <TextView
+                android:id="@+id/rule_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="• The winning amount will be transferred to players's wallet and will be credited to player's payTM wallet within 24hrs."
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+
+                android:background="#50dddddd"
+                />
+            <TextView
+                android:id="@+id/rule_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="• If any player is found violating any of the rules will be removed from the match and all the wallet credits won will be lost."
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+
+                android:background="#50dddddd"
+                />
+            <TextView
+                android:id="@+id/rule_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="• If you have any suggestions or query please write us at contact@2ournamentgo.com,we are always happy to help."
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+
+                android:background="#50dddddd"
+                />
+            <TextView
+                android:id="@+id/rule_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:layout_marginBottom="20dp"
+                android:text="• For any sponsorship please mail us at contact@2ournamentgo.com."
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+</RelativeLayout>
