@@ -7,7 +7,7 @@
 * Make your gaming groups and chat with other players worldwide.
 
 **Technologies used**
-* Firebase Database.
+* Firebase Realtime Database.
 * Paytm payment Gateway.
 * RxJAVA 2 for multi-threading.
 * Firestore for cloud Storage.
